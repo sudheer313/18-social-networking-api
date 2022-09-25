@@ -1,0 +1,19 @@
+{
+  "name": "18-social-networking-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sudheer313/18-social-networking-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sudheer313/18-social-networking-api/issues"
+  },
+  "homepage": "https://github.com/sudheer313/18-social-networking-api#readme"
+}
