@@ -1,29 +1,29 @@
 const { User, Student } = require("../models");
 
 module.exports = {
-  // Get all courses
+  // Get all users
   getUsers(req, res) {
     User.find()
-      .then((courses) => res.json(courses))
+      .then((users) => res.json(users))
       .catch((err) => res.status(500).json(err));
   },
-  // Get a course
+  // Get a single user
   getSingleUser(req, res) {
     User.findOne({ _id: req.params.Id })
-      .select("-__v")
-      .populate("thoughts")
-      .populate("friends")
-      .then((course) =>
-        !course
-          ? res.status(404).json({ message: "No course with that ID" })
-          : res.json(course)
+      // .select("-__v")
+      // .populate("thoughts")
+      // .populate("friends")
+      .then((user) =>
+        !user
+          ? res.status(404).json({ message: "No user with this ID" })
+          : res.json(user)
       )
       .catch((err) => res.status(500).json(err));
   },
-  // Create a course
+  // Create a user
   newUser(req, res) {
     User.create(req.body)
-      .then((course) => res.json(course))
+      .then((user) => res.status(201).json(user))
       .catch((err) => {
         console.log(err);
         return res.status(500).json(err);
