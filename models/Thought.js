@@ -1,4 +1,5 @@
 const { Schema, model, Types } = require("mongoose");
+const moment = require("moment");
 const reactionSchema = new Schema(
   {
     reactionId: {
@@ -19,6 +20,7 @@ const reactionSchema = new Schema(
       type: Date,
       default: Date.now,
       //getter method
+      get: (timestamp) => moment(timestamp).utc().format("YYYY-MM-DD"),
     },
   },
   {
@@ -42,6 +44,7 @@ const thoughtSchema = new Schema(
       type: Date,
       default: Date.now,
       //getter method
+      get: (timestamp) => moment(timestamp).utc().format("YYYY-MM-DD"),
     },
     username: {
       type: String,
@@ -57,7 +60,6 @@ const thoughtSchema = new Schema(
     id: false,
   }
 );
-
 thoughtSchema.virtual("reactionCount").get(function () {
   return this.reactions.length;
 });

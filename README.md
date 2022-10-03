@@ -1,6 +1,8 @@
 # 18-social-networking-api
 
-## Your Task
+## My Task
+
+My Challenge is to build an API for a social network web application where users can share their thoughts, react to friends’ thoughts, and create a friend list. I used Express.js for routing, a MongoDB database, and the Mongoose ODM. In addition to using the [Express.js](https://www.npmjs.com/package/express) and [Mongoose](https://www.npmjs.com/package/mongoose) packages, I also used a JavaScript date library native JavaScript `Date` object to format timestamps.
 
 ## User Story
 
@@ -26,27 +28,21 @@ THEN I am able to successfully create and delete reactions to thoughts and add a
 
 ## Mock Up
 
-The following animations show examples of the application's API routes being tested in Insomnia.
+The following images show how my application routes are tested in insomnia:
 
-The following animation shows GET routes to return all users and all thoughts being tested in Insomnia:
+![Add a new User](./assets/add_NewUser.png)
 
-![Demo of GET routes to return all users and all thoughts being tested in Insomnia.](./Assets/18-nosql-homework-demo-01.gif)
+delete a user by Id<br>
+![delete a user by Id](./assets/delete_UserbyId.png)
 
-The following animation shows GET routes to return a single user and a single thought being tested in Insomnia:
+Get a user by Id<br>
+![Get a user by Id](./assets/Get_UserbyId.png)
 
-![Demo that shows GET routes to return a single user and a single thought being tested in Insomnia.](./Assets/18-nosql-homework-demo-02.gif)
+Get all users<br>
+![Get all users](./assets/Get_all_Users.png)
 
-The following animation shows the POST, PUT, and DELETE routes for users being tested in Insomnia:
-
-![Demo that shows the POST, PUT, and DELETE routes for users being tested in Insomnia.](./Assets/18-nosql-homework-demo-03.gif)
-
-In addition to this, your walkthrough video should show the POST, PUT, and DELETE routes for thoughts being tested in Insomnia.
-
-The following animation shows the POST and DELETE routes for a user’s friend list being tested in Insomnia:
-
-![Demo that shows the POST and DELETE routes for a user’s friend list being tested in Insomnia.](./Assets/18-nosql-homework-demo-04.gif)
-
-In addition to this, your walkthrough video should show the POST and DELETE routes for reactions to thoughts being tested in Insomnia.
+Update a user by Id<br>
+![Update a user by Id](./assets/update_user.png)
 
 ### API Routes
 
@@ -107,23 +103,21 @@ Delete route is also added
 ## deploymnet
 
 [screencastifylink](https://drive.google.com/file/d/1IS2WEp5uHm7SGs-UcfJJeFKPuj9_BncB/view)</br>
-[github repo](sudheer313/14-Tech-Blog-MVC)</br>
-[github link](https://github.com/sudheer313/14-Tech-Blog-MVC)</br>
+[github repo](sudheer313/18-social-networking-api)</br>
+[github link](https://github.com/sudheer313/18-social-networking-api)</br>
 
 ## credits
 
 askBCS </br>
-referred week14-mvc mini project
+referred week18-mvc mini project
+referreed https://github.com/joce1ynn/social-network-NoSQL
 
 ## What I learned
 
-This application helped me to understand basic MVC structure and also routes structure in mvc pattern
-I also learned to how to define controllers and handlebars
-I also understood concept of Authorization and Authentication. I also came across session storage.
-
+This application helped me to understand how to create modeles in mongoose and create a connection to mongoose database create routes using express routes
 ## Challanges
 
-At start I was unable to understand contollers. I was unbale to figure out about back-end and front-end routes at start. But after careful understanding of concepts this helped me to congigure this app.
+At start I was unable to understand MongoDB. I was unbale to models and understand basic strcuture. But after careful understanding of concepts this helped me to congigure this app.
 I am also thankful to BCS who helped me through the process when I was struck in the due process of execution.
 
 ## Author
