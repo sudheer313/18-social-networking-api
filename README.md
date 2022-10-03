@@ -102,7 +102,7 @@ Delete route is also added
 
 ## deploymnet
 
-[screencastifylink](https://drive.google.com/file/d/1IS2WEp5uHm7SGs-UcfJJeFKPuj9_BncB/view)</br>
+[screencastifylink](https://drive.google.com/file/d/1vS4K9O1u8D5FiUFQrwQPH0-ZROgQTg5S/view)</br>
 [github repo](sudheer313/18-social-networking-api)</br>
 [github link](https://github.com/sudheer313/18-social-networking-api)</br>
 
@@ -115,9 +115,10 @@ referreed https://github.com/joce1ynn/social-network-NoSQL
 ## What I learned
 
 This application helped me to understand how to create modeles in mongoose and create a connection to mongoose database create routes using express routes
+
 ## Challanges
 
-At start I was unable to understand MongoDB. I was unbale to models and understand basic strcuture. But after careful understanding of concepts this helped me to congigure this app.
+At start I was unable to understand MongoDB. I was unbale to models and understand basic strcuture. But after careful understanding of concepts and class activities helped me to congigure this app.
 I am also thankful to BCS who helped me through the process when I was struck in the due process of execution.
 
 ## Author
